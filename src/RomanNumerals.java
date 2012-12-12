@@ -13,6 +13,22 @@ public class RomanNumerals {
 	public String toRoman(int nmber) {
 		
 
+        if (binary <= 0 || binary >= 4000) {
+            throw new NumberFormatException("Value outside roman numeral range.");
+        }
+        String roman = "";         // Roman notation will be accumualated here.
+        
+        // Loop from biggest value to smallest, successively subtracting,
+        // from the binary value while adding to the roman representation.
+        for (int i = 0; i < RCODE.length; i++) {
+            while (binary >= BVAL[i]) {
+                binary -= BVAL[i];
+                roman  += RCODE[i];
+            }
+        }
+        return roman;
+		
+		
 //		switch (nmber) {
 //			case 1: return "I";
 //			case 2: return "II";
