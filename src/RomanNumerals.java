@@ -11,9 +11,8 @@ public class RomanNumerals {
 	
 	
 	public String toRoman(int binary) {
-		
 
-        if (binary <= 0 || binary >= 4000) {
+        if (binary < 0 || binary >= 4000) {
             throw new NumberFormatException("Value outside roman numeral range.");
         }
         String roman = "";         // Roman notation will be accumualated here.
