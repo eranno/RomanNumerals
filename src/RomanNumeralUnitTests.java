@@ -139,6 +139,14 @@ public class RomanNumeralUnitTests {
 		assertEquals("MMCMXLIX",number.toRoman(2949));
 		assertEquals("MMDXLIX",number.toRoman(2549));
 		assertEquals("MMCDXLIX",number.toRoman(2449));
+		
+		//some others
+		assertEquals("D",number.toRoman(500));
+		assertEquals("DI",number.toRoman(501));
+		assertEquals("DL",number.toRoman(550));
+		assertEquals("DXXX",number.toRoman(530));
+		assertEquals("DCCVII",number.toRoman(707));
+		assertEquals("DCCCXC",number.toRoman(890));
 	}
 	
 	
