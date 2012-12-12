@@ -55,6 +55,51 @@ public class RomanNumeralUnitTests {
 		assertEquals("XXXVIII",number.toRoman(38));
 		assertEquals("XXXIX",number.toRoman(39));
 		
+		
+		//bigger
+		assertEquals("L",number.toRoman(50));
+		assertEquals("LI",number.toRoman(51));
+		assertEquals("LII",number.toRoman(52));
+		assertEquals("LIII",number.toRoman(53));
+		assertEquals("LIV",number.toRoman(54));
+		assertEquals("LV",number.toRoman(55));
+		assertEquals("LVI",number.toRoman(56));
+		assertEquals("LVII",number.toRoman(57));
+		assertEquals("LVIII",number.toRoman(58));
+		assertEquals("LIX",number.toRoman(59));
+
+		assertEquals("LX",number.toRoman(60));
+		assertEquals("LXI",number.toRoman(61));
+		assertEquals("LXII",number.toRoman(62));
+		assertEquals("LXIII",number.toRoman(63));
+		assertEquals("LXIV",number.toRoman(64));
+		assertEquals("LXV",number.toRoman(65));
+		assertEquals("LXVI",number.toRoman(66));
+		assertEquals("LXVII",number.toRoman(67));
+		assertEquals("LXVIII",number.toRoman(68));
+		assertEquals("LXIX",number.toRoman(69));
+
+		assertEquals("LXX",number.toRoman(70));
+		assertEquals("LXXI",number.toRoman(71));
+		assertEquals("LXXII",number.toRoman(72));
+		assertEquals("LXXIII",number.toRoman(73));
+		assertEquals("LXXIV",number.toRoman(74));
+		assertEquals("LXXV",number.toRoman(75));
+		assertEquals("LXXVI",number.toRoman(76));
+		assertEquals("LXXVII",number.toRoman(77));
+		assertEquals("LXXVIII",number.toRoman(78));
+		assertEquals("LXXIX",number.toRoman(79));
+
+		assertEquals("LXXX",number.toRoman(80));
+		assertEquals("LXXXI",number.toRoman(81));
+		assertEquals("LXXXII",number.toRoman(82));
+		assertEquals("LXXXIII",number.toRoman(83));
+		assertEquals("LXXXIV",number.toRoman(84));
+		assertEquals("LXXXV",number.toRoman(85));
+		assertEquals("LXXXVI",number.toRoman(86));
+		assertEquals("LXXXVII",number.toRoman(87));
+		assertEquals("LXXXVIII",number.toRoman(88));
+		assertEquals("LXXXIX",number.toRoman(89));
 	}
 	
 
