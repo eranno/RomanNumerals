@@ -15,7 +15,6 @@ public class RomanNumerals {
 			case 9: return "IX";
 			case 10: return "X";
 		}
-		return "";
 	}
 
 }
