@@ -100,7 +100,47 @@ public class RomanNumeralUnitTests {
 		assertEquals("LXXXVII",number.toRoman(87));
 		assertEquals("LXXXVIII",number.toRoman(88));
 		assertEquals("LXXXIX",number.toRoman(89));
+		
+		//very big
+		assertEquals("CM",number.toRoman(900));
+		assertEquals("CMXCVIII",number.toRoman(998));
+		assertEquals("MDCCXII",number.toRoman(1712));
+		assertEquals("MCMXC",number.toRoman(1990));
+		assertEquals("MCMXCI",number.toRoman(1991));
+		assertEquals("MCMXCII",number.toRoman(1992));
+		assertEquals("MCMXCIII",number.toRoman(1993));
+		assertEquals("MCMXCIV",number.toRoman(1994));
+		assertEquals("MCMXCV",number.toRoman(1995));
+		assertEquals("MCMXCVI",number.toRoman(1996));
+		assertEquals("MCMXCVII",number.toRoman(1997));
+		assertEquals("MCMXCVIII",number.toRoman(1998));
+		assertEquals("MCMXCIX",number.toRoman(1999));
+		assertEquals("MM",number.toRoman(2000));
+		assertEquals("MMI",number.toRoman(2001));
+		assertEquals("MMII",number.toRoman(2002));
+		assertEquals("MMIII",number.toRoman(2003));
+		assertEquals("MMIV",number.toRoman(2004));
+		assertEquals("MMV",number.toRoman(2005));
+		assertEquals("MMVI",number.toRoman(2006));
+		assertEquals("MMVII",number.toRoman(2007));
+		assertEquals("MMVIII",number.toRoman(2008));
+		assertEquals("MMIX",number.toRoman(2009));
+		assertEquals("MMX",number.toRoman(2010));
+		assertEquals("MMXI",number.toRoman(2011));
+		assertEquals("MMXII",number.toRoman(2012));
+		assertEquals("MMXIII",number.toRoman(2013));
+		assertEquals("MMXIV",number.toRoman(2014));
+		assertEquals("MMXV",number.toRoman(2015));
+		assertEquals("MMXVI",number.toRoman(2016));
+		assertEquals("MD",number.toRoman(1500));
+		assertEquals("MDCCC",number.toRoman(1800));
+		assertEquals("MMCMXCIX",number.toRoman(2999));
+		assertEquals("MMM",number.toRoman(3000));
+		assertEquals("MMCMXLIX",number.toRoman(2949));
+		assertEquals("MMDXLIX",number.toRoman(2549));
+		assertEquals("MMCDXLIX",number.toRoman(2449));
 	}
+	
 	
 
 }
